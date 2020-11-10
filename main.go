@@ -95,7 +95,7 @@ func parseFlags() error {
 	gcfg.Theme = "black"
 	gcfg.PlistProxy = defaultPlistProxy
 	gcfg.Auth.OpenID = defaultOpenID
-	gcfg.GoogleTrackerID = "UA-81205425-2"
+	gcfg.GoogleTrackerID = ""
 	gcfg.Title = "Go HTTP File Server"
 
 	kingpin.HelpFlag.Short('h')
